@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Test Website</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+  <style>
+    .my-card {
+      height: 420px;
+    }
+
+    .my-card p {
+      line-height: 2;
+      font-size: 17px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" role="status"></div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+    <a href="index.html" class="navbar-brand d-flex align-items-center">
+      <h2 class="m-0">Your Logo</h2>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto py-4 py-lg-0">
+        <!-- DropDown in DropDown -->
+        <div class="menu">
+          <ul>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Services</a>
+              <ul>
+                <li class="link">
+                  <a href="#">Legal consultation</a>
+                </li>
+                <li>
+                  Contract drafting
+                  <ul>
+                    <li class="link">
+                      <a href="#">-Do it yourself (DIY)</a>
+                    </li>
+                    <li class="link">
+                      <a href="#">-Draft by an expert</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="link">
+                  <a href="#">Contract Review</a>
+                </li>
+                <li>
+                  Intellectual Property Rights
+                  <ul>
+                    <li class="link">
+                      <a href="#">-Trademark/copyright
+                        application Filing</a>
+                    </li>
+                    <li class="link">
+                      <a href="#">-Reply to objection</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  HR Legal
+                  <ul>
+                    <li class="link">
+                      <a href="#">- Drafting docket</a>
+                    </li>
+                    <li class="link">
+                      <a href="#">- Training</a>
+                    </li>
+                    <li class="link">
+                      <a href="#">- Support</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Legal Audit
+                  <ul>
+                    <li class="link">
+                      <a href="#">- Business plan audit</a>
+                    </li>
+                    <li class="link">
+                      <a href="#">- Business process audit</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="link">
+                  <a href="#">E-signature</a>
+                </li>
+                <li class="link">
+                  <a href="#">POSH</a>
+                </li>
+                <li class="link">
+                  <a href="#">Legal Notice</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- DropDown in DropDown -->
+        <a href="#" class="nav-item nav-link">Price</a>
+        <a href="#" class="nav-item nav-link">Affiliate programme</a>
+        <a href="#" class="nav-item nav-link">Login</a>
+      </div>
+      <div class="h-100 d-lg-inline-flex align-items-center d-none">
+        <button class="my-custom-btn" style="box-shadow: none;width: 120px;height: 40px; font-size: 12px;">Free
+          account</button>
+      </div>
+      <div class="navbar-nav ms-4 py-4 py-lg-0">
+        <a href="#" class="nav-item nav-link">Help ?</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Header Start -->
+  <div class="container-fluid hero-header py-5 mb-5">
+    <div class="container py-5">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-4 mb-4 animated slideInDown" style="font-size: 42px">
+            Contract Draft By An Expert
+          </h1>
+          <p class="animated slideInDown mb-5" style="
+                color: var(--dark);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 2;
+              ">
+            Let our expert lawyers help you draft out all your legal contract
+            needs from the comfort of your home.
+          </p>
+          <div class="d-flex mb-4">
+            <img src="./img/Vector.png" style="width: 40px; height: 40px" />
+            <p style="
+                  font-size: 22px;
+                  color: var(--primary);
+                  font-weight: bold;
+                " class="ms-4">
+              For as low as Rs.2,999/-
+            </p>
+          </div>
+          <a href="#" class="btn my-custom-btn animated slideInDown mb-4">Get Started</a>
+          <div class="d-flex pt-4">
+            <div class="d-flex">
+              <img class="me-2" src="./img/free.png" style="width: 20px; height: 20px" />
+              <p class="me-2" style="color: black; font-weight: bold; font-size: 12px">
+                Free Legal Consultation
+              </p>
+            </div>
+            <div class="d-flex">
+              <img class="me-2" src="./img/encrypt.png" style="width: 20px; height: 20px" />
+              <p class="me-2" style="color: black; font-weight: bold; font-size: 12px">
+                Free 256bit encryption
+              </p>
+            </div>
+            <div class="d-flex">
+              <img class="me-2" src="./img/iso.png" style="width: 20px; height: 20px" />
+              <p class="me-2" style="color: black; font-weight: bold; font-size: 12px">
+                Free Free ISO 9001:2015
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 animated fadeIn">
+          <img class="img-fluid animated pulse infinite" style="animation-duration: 3s" src="./img/g8.png" alt="img" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header End -->
+
+  <div class="container-fluid position-relative pb-5 pt-4" style="margin-top: -50px;background: #fdfcfc;">
+    <div class="layout"></div>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <!-- About Start -->
+      <div class="col-md-6 col-sm-12 text-center position-relative">
+        <div class="col-md-9 col-sm-12 m-auto wow fadeInUp" data-wow-delay="0.1s">
+          <div class="my-card mt-5" style="height: 38vh;">
+            <h2 class="mb-4 mt-3">About Our Services</h2>
+            <p style="font-size: 13px;">
+              Draft by an Expert is the service that is offered by the Contract Bazar wherein Contracts are drafted by
+              the corporate law experts who undertake research with regard to business, address their queries and
+              thereafter commence the drafting of the transaction-specific agreements.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="layoutsss" style="transform: translateY(0) !important;"></div>
+      <!-- About End -->
+      <!-- Start Fixed Div -->
+      <div class="col-md-3 col-sm-12" style="margin-left: 30px;">
+        <div class="wow fadeInUp p-3 orange-box first-index-box" data-wow-delay="0.5s" style="margin-top: -50px;">
+          <div class="mt-3 mb-4">
+            <h1 class="text-center" style="color: #fff; font-size: 22px">
+              What Are We Giving?
+            </h1>
+          </div>
+          <div class="mt-2">
+            <ul style="list-style: none; padding: 0; font-size: 14px">
+              <li class="d-flex align-items-baseline mb-3">
+                <i style="color: #ffdeaa" class="fa fa-check me-3 fw-bold"></i>
+                <p style="font-size: 12px;">Briefing call with our expert lawyer to
+                  understand the contemplated transaction</p>
+              </li>
+              <li class="d-flex align-items-baseline mb-3">
+                <i style="color: #ffdeaa" class="fa fa-check me-3 fw-bold"></i>
+                <p style="font-size: 12px;">A customized agreement drafted by our
+                  expert lawyers safeguarding your interest.</p>
+              </li>
+              <li class="d-flex align-items-baseline mb-3">
+                <i style="color: #ffdeaa" class="fa fa-check me-3 fw-bold"></i>
+                <p style="font-size: 12px;">Delivery of the first draft of the agreement
+                  in three business days</p>
+              </li>
+              <li class="d-flex align-items-baseline mb-3">
+                <i style="color: #ffdeaa" class="fa fa-check me-3 fw-bold"></i>
+                <p style="font-size: 12px;">Up to 2 amendments in the draft in case any
+                  changes need to incorporate after discussion
+                  with you</p>
+              </li>
+            </ul>
+            <a class="my-custom-btn mb-3 mt-4" style="
+                    margin: 0 auto;
+                    background-color: #fff;
+                    box-shadow: none;
+                    width: 200px;
+                    height: 45px;
+                    color: var(--primary);
+                  " href="#">Pay Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Fixed Div -->
+  <!-- Features Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
+        <h1 class="display-6">How does it work?</h1>
+      </div>
+      <div class="row g-5 pt-5">
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="d-flex align-items-center flex-column text-center">
+            <img style="width: 200px; height: 200px" src="img/choose service illustration and circle.png" alt="" />
+            <div>
+              <h5 class="mt-5 fs-6">
+                Choose the contract and make the payment
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="d-flex align-items-center flex-column text-center">
+            <img style="width: 200px; height: 200px" src="img/Group 108.png" alt="" />
+            <div>
+              <h5 class="mt-5 fs-6">
+                Lawyer will call you in one hour
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="d-flex align-items-center flex-column text-center">
+            <img style="width: 200px; height: 200px" src="img/bro.png" alt="" />
+            <div>
+              <h5 class="mt-5 fs-6">
+                Fill in the information on the questions as shared by
+                the lawyer
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="d-flex align-items-center flex-column text-center">
+            <img style="width: 200px; height: 200px" src="img/pana.png" alt="" />
+            <div>
+              <h5 class="mt-5 fs-6">
+                Download the draft from the dashboard
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Features End -->
+  <div class="container">
+    <div class="boxitem">
+      <h3 class="h3">Choose A Contract</h3>
+      <p class="pt-5 text-center">
+        Select the type and category of the contract you want our expert lawyers to draft out for you
+      </p>
+      <div class="d-flex justify-content-center">
+        <input class="form-control" style="margin: 10px;" list="Select Category" placeholder="Select Category"
+          id="browser">
+        <datalist id="Select Category">
+          <option value="Any Other">
+          <option value="Employee Stock Options Scheme">
+          <option value="Franchise Contracts">
+          <option value="Human Resource">
+          <option value="Information Technology">
+          <option value="Intellectual Property Rights ">
+          <option value="Real Estate">
+        </datalist>
+        <input class="form-control" style="margin: 10px;" list="Select Category type" placeholder="Select Category type"
+          id="browser">
+        <datalist id="Select Category type">
+          <option value="Agent Agreement">
+          <option value="Agreement For sales of goods">
+          <option value="Agreement For sales of immovable property">
+          <option value="Appointment letter">
+          <option value="Apprenticeship Agreement">
+          <option value="Asset Purchase Agreement">
+          <option value="Authority Letter">
+          <option value="Board Resolution">
+          <option value="Business Consultancy Agreement">
+          <option value="Business Procurement Agreement">
+          <option value="Business Transfer Agreement">
+          <option value="Cancellation Policy">
+          <option value="Cofounder Agreement">
+          <option value="Commercial Lease Agreement">
+        </datalist>
+
+      </div>
+    </div>
+  </div>
+  <!-- Advantage Start -->
+  <div class="back-A mt-5" style="background-color: #2c3e50; position: relative;">
+    <div class="layout"></div>
+    <div class="container p-5">
+      <h5 class="mb-5" style="text-align: center; color: var(--light);font-size: 24px;">
+        Advantages Of Contract Draft
+        <br>By An Expert
+      </h5>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="row">
+            <div class="d-flex flex-column" style="
+                        margin-bottom: 10px;
+                        border: 3px solid #fff;
+                        padding: 20px;
+                        color: #fff;
+                        border-radius: 14px;
+                        height: 30vh;
+                      ">
+              <h3 style="font-size: 16px; text-align: left; color: #fff">
+                Exhaustive Agreements
+              </h3>
+              <p style="font-size: 13px;; text-align: justify">
+                These are exhaustively drafted agreements which are drafted keeping in mind the contemplated
+                transaction, business needs, and requirements. These Agreements are specifically drafted on the basis of
+                the brief received from the clients
+            </div>
+            <div class="d-flex flex-column" style="
+                        margin-bottom: 10px;
+                        border: 3px solid #fff;
+                        padding: 20px;
+                        color: #fff;
+                        border-radius: 14px;
+                        height: 30vh;
+                        margin-top: 50px;
+                      ">
+              <h3 style="font-size: 16px; text-align: left; color: #fff">
+                Quick turn around time
+              </h3>
+              <p style="font-size: 13px;; text-align: justify">
+                The order for the drafting of any agreement/ document that you will place with us will be provided to
+                you within 3 business days and will be uploaded on the dashboard. With reduced turn around time you will
+                be able to execute all your negotiations in a timebound manner.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 m-auto">
+          <img src="img/Group 53.png" alt="img" class="m-auto d-block img-fluid" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="row">
+            <div class="d-flex flex-column" style="
+                        margin-bottom: 10px;
+                        border: 3px solid #fff;
+                        padding: 20px;
+                        color: #fff;
+                        border-radius: 14px;
+                        height: 30vh;
+                      ">
+              <h3 style="font-size: 16px; text-align: left; color: #fff">
+                Dedicated briefing session
+              </h3>
+              <p style="font-size: 13px;; text-align: justify">
+                Our expert lawyers team will get in touch with you and schedule a dedicated briefing session with you
+                just to understand the intricacies of the contemplated transaction between the parties and will also
+                suggest the best possible measures to safeguard your interest.
+              </p>
+            </div>
+            <div class="d-flex flex-column" style="
+                        margin-bottom: 10px;
+                        border: 3px solid #fff;
+                        padding: 20px;
+                        color: #fff;
+                        border-radius: 14px;
+                        height: 30vh;
+                        margin-top: 50px;
+                      ">
+              <h3 style="font-size: 16px; text-align: left; color: #fff">
+                Edit Options
+              </h3>
+              <p style="font-size: 13px;; text-align: justify">
+                The document/ agreement will be provided to you in a word format and an opportunity to make edits and
+                amendment in the same will be provided for 2 times if the requisition is raised within 3 days from the
+                date of delivery.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layouts"></div>
+  </div>
+
+  <!-- Advantage End -->
+
+  <!-- FAQs Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
+        <h3 class="fs-4 mb-3">Frequently Asked Questions</h3>
+        <p class="fs-6 mb-5" style="color: #ccc">
+          Have questions? we’re here to help
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  How are these contracts different from Do it Yourself (DIY)?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The Draft by an Expert contracts are drafted from the perspective of business and all the
+                  clauses such as roles and responsibilities, obligations, representation and warranties and other
+                  clauses of the contracts are made considering the business requirements and foreseen
+                  circumstances. On the other hand, Do it Yourself (DIY) are the contracts which are template
+                  versions and can be executed for any kind of business
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How is trademark/copyright registration useful for my
+                  business?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Dolor nonumy tempor elitr et rebum ipsum sit duo duo.
+                  Diam sed sed magna et magna diam aliquyam amet dolore
+                  ipsum erat duo. Sit rebum magna duo labore no diam.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  When will the briefing call be scheduled?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Our expert lawyers will get in touch with you within 1 hour from the placing of the order and
+                  will take a briefing call with you
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                  What is the duration of briefing call?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  § There is no set defined duration of briefing call. Our lawyer shall address all queries and
+                  all follow-up queries for the drafting of agreement and once all queries or documents, if
+                  requested by lawyer, are shared, the lawyer shall commence the drafting of the agreement.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Can the briefing call be rescheduled?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  You can reschedule the briefing call by connecting with the assigned lawyer and can reschedule
+                  the same between 10 am to 6 pm IST, on any business days i.e. Monday to Friday.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="text-primary mt-5" style="
+                    text-align: center;
+                    font-weight: bold;
+                    text-decoration: underline;
+                  ">See more FAQS</a>
+      </div>
+    </div>
+  </div>
+  <!-- FAQs Start -->
+
+  <!-- Start Testimonials -->
+  <div class="container-fluid bg-icon pt-3 pb-3 mb-5" style="background-color: var(--primary)">
+    <div class="container">
+      <div class="section-header text-center mx-auto mb-2 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
+        <h3 class="mb-3" style="color: var(--light)">Testimonials</h3>
+        <p class="fs-4" style="color: var(--light)">
+          What Our Clients Have To Say About Us
+        </p>
+      </div>
+      <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+        <div class="testimonial-item position-relative text-center bg-light p-5 mt-4"
+          style="height: 60vh; border-radius: 14px">
+          <img src="./img/image 2669.png" class="mb-2" alt="" style="width: 100%; mix-blend-mode: multiply" />
+          <p class="mb-4">
+            Excellent online consultation and that too anytime, what an
+            amazing technology!....
+          </p>
+          <h3 class="fs-4" style="color: var(--primary)">Manoj Rana</h3>
+          <p class="fs-6">Propietor At RMS</p>
+        </div>
+        <div class="testimonial-item position-relative text-center bg-light p-5 mt-4"
+          style="height: 60vh; border-radius: 14px">
+          <img src="./img/image 2670.png" class="mb-5" alt="" style="width: 100%" />
+          <p class="mb-4">
+            Lawyer’s support was prompt and of good quality.
+          </p>
+          <h3 class="fs-4" style="color: var(--primary)">
+            Subhadra Dravida
+          </h3>
+          <p class="fs-6">Founder & CEO at Trancell oncologics</p>
+        </div>
+        <div class="testimonial-item position-relative text-center bg-light p-5 mt-4"
+          style="height: 60vh; border-radius: 14px">
+          <img src="./img/image 2671.png" class="mb-2" alt="" style="width: 100%; mix-blend-mode: multiply" />
+          <p class="mb-4">
+            Assigned legal expert provided me with all the possible
+            solutions for my query I....
+          </p>
+          <h3 class="fs-4" style="color: var(--primary)">
+            Dinesh Malhotra
+          </h3>
+          <p class="fs-6">Founder at model off duty (USA)</p>
+        </div>
+        <div class="testimonial-item position-relative text-center bg-light p-5 mt-4"
+          style="height: 60vh; border-radius: 14px">
+          <img src="./img/image 2672.png" alt="" style="width: 100%" />
+          <p class="mb-4">
+            I am very happy with the service that contractbazar provided
+            to me, I had...
+          </p>
+          <h3 class="fs-4" style="color: var(--primary)">
+            Tilak Raj Gaur
+          </h3>
+          <p style="font-size: 12px">
+            Founder at mix squad sales & marketing private limited
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Testimonials -->
+
+  <!-- Start Contact Form -->
+  <div class="container">
+    <div class="wrapper">
+      <div class="form">
+        <div class="left-col">
+          <h2 style="font-weight: bold" class="mt-4">
+            Still have more questions?
+          </h2>
+          <p style="
+                      color: var(--light);
+                      text-align: justify;
+                      line-height: 2;
+                    " class="mt-4 p-4">
+            Orwant to know more about this service. fill the details
+            below and we will get back to you in the shortest time
+            possible
+          </p>
+        </div>
+        <div class="right-col">
+          <form class="my-form">
+            <div class="result"></div>
+            <div class="form-group mt-4">
+              <input id="name" type="text" placeholder="Name" />
+            </div>
+            <div class="form-group mt-4">
+              <input id="phone" type="number" placeholder="Phone Number" />
+            </div>
+            <div class="form-group mt-4">
+              <input id="email" type="email" placeholder="Email ID" />
+            </div>
+            <a class="btn my-custom-btn mt-4" style="
+                        margin: 0 auto;
+                        background-color: var(--primary);
+                        box-shadow: none;
+                        width: 200px;
+                        height: 45px;
+                      " href="#">Know More</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Form -->
+
+  </div>
+
+  <!-- Footer Start -->
+  <div class="container-fluid footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h5 class="mb-5">Logo</h5>
+          <p class="mt-2">© 2022 Contract Bazar.All rights
+            reserved.</p>
+          <div class="d-flex">
+            <a class="btn me-1" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="btn me-1" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn me-1" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="btn me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="mb-4">Our Services</h5>
+          <a class="btn btn-link" href="#">Legal Consultation </a>
+          <div class="menu">
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link btn btn-link" style="margin-right: 30px;">Contract Drafting
+                </a>
+                <ul>
+                  <li class="link">
+                    <a href="#">-Do it yourself (DIY)</a>
+                  </li>
+                  <li class="link">
+                    <a href="#">-Draft by an expert</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a class="btn btn-link" href="#">Contract Review</a>
+          <a class="btn btn-link" href="#">Intellectual Property Right</a>
+          <a class="btn btn-link" href="#">HR Legal</a>
+          <a class="btn btn-link" href="#">Legal Audit</a>
+          <a class="btn btn-link" href="#">E-signature</a>
+          <a class="btn btn-link" href="#">POSH</a>
+          <a class="btn btn-link" href="#">Legal Notice</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="mb-4">Company</h5>
+          <a class="btn btn-link" href="#">About Us</a>
+          <a class="btn btn-link" href="#">Blog</a>
+          <a class="btn btn-link" href="#">Cancellation and refund policy</a>
+          <a class="btn btn-link" href="#">Privacy policy</a>
+          <a class="btn btn-link" href="#">Terms of use</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="mb-4">Get In Touch</h5>
+          <p>Lex Mores Tech Pvt. Ltd</p>
+          <p>Dynamic House, Block 1, Sector 41, Noida, UP, 201301</p>
+          <p>Support@contractbazar.com</p>
+          <p>+91-9986640578</p>
+          <p>+91-8035241251</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid copyright">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <hr style="background-color: var(--dark);width: 600px;margin-right: 20px;">
+          <p style="font-size: 14px;margin: 0 10px 0 10px;width: 150px;">Trusted & Secure</p>
+          <hr style="background-color: var(--dark);width: 600px;margin-left: 20px;">
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center text-md-start mb-3 mb-md-0 d-flex justify-content-center">
+            <div class="me-2"><img src="./img/Group 120.png"></div>
+            <div class="ms-2"><img src="./img/Group 121.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-lg-square rounded-circle back-to-top" style="background-color: var(--primary)"><i
+      class="bi bi-arrow-up" style="color: #fff"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

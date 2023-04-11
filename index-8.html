@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        @media (min-width : 992px) {
+            .help-me {
+                position: relative;
+                top: -150px;
+                transform: translate(40px, 0px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0">Your Logo</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <!-- DropDown in DropDown -->
+                <div class="menu">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Services</a>
+                            <ul>
+                                <li class="link">
+                                    <a href="#">Legal consultation</a>
+                                </li>
+                                <li>
+                                    Contract drafting
+                                    <ul>
+                                        <li class="link">
+                                            <a href="#">-Do it yourself (DIY)</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#">-Draft by an expert</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="link">
+                                    <a href="#">Contract Review</a>
+                                </li>
+                                <li>
+                                    Intellectual Property Rights
+                                    <ul>
+                                        <li class="link">
+                                            <a href="#">-Trademark/copyright
+                                                application Filing</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#">-Reply to objection</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    HR Legal
+                                    <ul>
+                                        <li class="link">
+                                            <a href="#">- Drafting docket</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#">- Training</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#">- Support</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Legal Audit
+                                    <ul>
+                                        <li class="link">
+                                            <a href="#">- Business plan audit</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#">- Business process audit</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="link">
+                                    <a href="#">E-signature</a>
+                                </li>
+                                <li class="link">
+                                    <a href="#">POSH</a>
+                                </li>
+                                <li class="link">
+                                    <a href="#">Legal Notice</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- DropDown in DropDown -->
+                <a href="#" class="nav-item nav-link">Price</a>
+                <a href="#" class="nav-item nav-link">Affiliate programme</a>
+                <a href="#" class="nav-item nav-link">Login</a>
+            </div>
+            <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <button class="my-custom-btn" style="box-shadow: none;width: 120px;height: 40px; font-size: 12px;">Free
+                    account</button>
+            </div>
+            <div class="navbar-nav ms-4 py-4 py-lg-0">
+                <a href="#" class="nav-item nav-link">Help ?</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header py-5 mb-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-4 animated slideInDown" style="font-size: 42px;">POSH</h1>
+                    <p class="animated slideInDown mb-5" style="color: var(--dark); font-size: 16px; font-weight: 500;">
+                        We are here to help you legally protect and help prevent sexual Harassment of women in the work
+                        place by providing legal grounds for a safe working environment .</p>
+                    <div class="d-flex mb-4"><img src="./img/Vector.png" style="width:40px; height: 40px;">
+                        <p style="font-size: 22px; color: var(--primary); font-weight: bold;" class="ms-4">For as low as
+                            Rs.5,999/- </p>
+                    </div>
+                    <a href="#" class="btn my-custom-btn animated slideInDown mb-4">Get Started</a>
+                    <div class="d-flex pt-4">
+                        <div class="d-flex"><img class="me-2" src="./img/free.png" style="width: 20px; height: 20px;">
+                            <p class="me-2" style="color: black; font-weight: bold; font-size: 12px;">Free Legal
+                                Consultation</p>
+                        </div>
+                        <div class="d-flex"><img class="me-2" src="./img/encrypt.png"
+                                style="width: 20px; height: 20px;">
+                            <p class="me-2" style="color: black; font-weight: bold; font-size: 12px;">Free
+                                256bit encryption</p>
+                        </div>
+                        <div class="d-flex"><img class="me-2" src="./img/iso.png" style="width: 20px; height: 20px;">
+                            <p class="me-2" style="color: black; font-weight: bold; font-size: 12px;">Free
+                                Free ISO 9001:2015 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;"
+                        src="./img/illustration000.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <div class="container-fluid position-relative">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+
+                <!-- About Start -->
+                <div class="container-xxl pb-5" style="background: #FDFCFC;position: relative;margin-top: -55px;">
+                    <div class="container">
+                        <div class="layout"></div>
+                        <div class="row pt-5 position-relative">
+                            <div class="col-lg-8">
+                                <div class="row">
+                                    <div class="col-lg-6 wow fadeInUp mb-5" data-wow-delay="0.1s">
+                                        <div class="my-card pt-5" style="height: 70vh;">
+                                            <h2 class="mb-4">Drafting Policy</h2>
+                                            <p>A POSH Policy is used to inform employees of the POSH Act (The Sexual
+                                                Harassment of Women at Workplace, Act 2013). The goal of this Policy is
+                                                to provide every employee with a safe and secure workplace that is free
+                                                of sexual harassment. The POSH Policy is applicable to all employees,
+                                                members, partners, management or any other members of the organisation.
+                                                In addition, the POSH Policy aims to safeguard its female workers
+                                                wherever they go while working for the organization, including on any
+                                                company-provided transportation.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 wow fadeInUp mb-5" data-wow-delay="0.1s">
+                                        <div class="my-card trade pt-5" style="height: 70vh;">
+                                            <h2 class="mb-4">Training of Employees</h2>
+                                            <p>Training of employees of the organisation
+                                                regarding the obligations
+                                                mentioned under the POSH Policy is necessary for successful
+                                                implementation of the Posh Policy in the organisation. Under training, a
+                                                general overview in respect of the do’s and don’ts and other relevant
+                                                details in respect of Sexual Harassment is provided to the employees so
+                                                that no alleged activities of harassment takes place within the
+                                                organization.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 wow fadeInUp mb-2" data-wow-delay="0.1s">
+                                        <div class="my-card pt-5" style="height: 47vh;">
+                                            <h2 style="font-size: 22px;">Training of Internal Committee Members</h2>
+                                            <p>It is equally important to train the Committee members so that they have
+                                                a set protocol which they shall abide and comply with while handling and
+                                                addressing any issue or complaints in respect of the sexual harassment.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 wow fadeInUp mb-2" data-wow-delay="0.1s">
+                                        <div class="my-card trade pt-5" style="height: 47vh;">
+                                            <h2 class="mb-4">Filing compliance</h2>
+                                            <p> As per the law, it is mandatory to file compliance of the Act on an
+                                                annual basis. Under POSH annual compliance, the organization should
+                                                submit the annual report by 31st January for the previous calendar year
+                                                highlighting the number of complaints received, resolved, pending, etc.
+                                                to the appropriate authorities.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 m-auto help-me">
+                                <!-- Start Fixed Div -->
+                                <div class="col-lg-10 col-sm-12">
+                                    <div class="wow fadeInUp p-4 orange-box"
+                                        style="margin-left: -40px;margin-top: -250px;" data-wow-delay="0.5s">
+                                        <div class="mt-1">
+                                            <h1 class="text-center" style="color: #FFF;font-size: 24px;">What Are We
+                                                Giving?
+                                            </h1>
+                                            <ul style="list-style: none;padding: 0;font-size: 12px;">
+                                                <li class="d-flex align-items-baseline"><i style="color: #FFDEAA
+                        ;" class="fa fa-check me-3 fw-bold"></i>
+                                                    <p> Consultation with Legal Consultant for discussing
+                                                        and resolving queries regarding Posh policy.</p>
+                                                </li>
+                                                <li class="d-flex align-items-baseline"><i style="color: #FFDEAA
+                        ;" class="fa fa-check me-3 fw-bold"></i>
+                                                    <p>Drafting Posh Policy for the organisation</p>
+                                                </li>
+                                                <li class="d-flex align-items-baseline"><i style="color: #FFDEAA
+                        ;" class="fa fa-check me-3 fw-bold"></i>
+                                                    <p>POSH Training of Employees and Internal
+                                                        Committee members.</p>
+                                                </li>
+                                                <li class="d-flex align-items-baseline"><i style="color: #FFDEAA
+                        ;" class="fa fa-check me-3 fw-bold"></i>
+                                                    <p>Filling POSH Compliances.</p>
+                                                </li>
+                                                <li class="d-flex align-items-baseline"><i style="color: #FFDEAA
+                        ;" class="fa fa-check me-3 fw-bold"></i>
+                                                    <p>First draft of the documents will be delivered
+                                                        in three business days.</p>
+                                                </li>
+                                                <li class="d-flex align-items-baseline"><i style="color: #FFDEAA
+                                                    ;" class="fa fa-check me-3 fw-bold"></i>
+                                                    <p>Amendments in the draft if in case any changes
+                                                        need to incorporated after discussion with you.</p>
+                                                </li>
+                                            </ul>
+
+                                            <div class="mt-2">
+                                                <a class="my-custom-btn mt-2"
+                                                    style="margin: 0 auto;background-color: #FFF;box-shadow: none;width: 200px;height: 45px;color: var(--primary);"
+                                                    href="#">Pay Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Fixed Div -->
+                            </div>
+                        </div>
+                        <div class="layoutsss"></div>
+
+                    </div>
+                </div>
+                <!-- About End -->
+
+                <!-- Features Start -->
+                <div class="container-xxl py-5">
+                    <div class="container">
+                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                            <h1 style="font-size: 32px;" class="display-6">How does it work?</h1>
+                        </div>
+                        <div class="row g-5 pt-5">
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center flex-column text-center">
+                                    <img style="width: 200px;height: 200px;"
+                                        src="img/choose service illustration and circle.png" alt="">
+                                    <div>
+                                        <h5 class="mt-5 fs-6">Choose the Service and
+                                            make the payment</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center flex-column text-center">
+                                    <img style="width: 200px;height: 200px;" src="img/Group 108.png" alt="">
+                                    <div>
+                                        <h5 class="mt-5 fs-6">Get a call from the lawyer</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center flex-column text-center">
+                                    <img style="width: 200px;height: 200px;" src="img/proceed.png" alt="">
+                                    <div>
+                                        <h5 class="mt-5 fs-6">Meeting will be scheduled as
+                                            per the discussed timeline</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center flex-column text-center">
+                                    <img style="width: 200px;height: 200px;" src="img/pana.png" alt="">
+                                    <div>
+                                        <h5 class="mt-5 fs-6">Download the drafts from
+                                            the dashboard</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Features End -->
+
+                <!-- Advantage Start -->
+                <div class="back-A" style="background-color: #2C3E50;position: relative;">
+                    <div class=" layout"></div>
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="text-center mb-5" style="color: var(--light);">Advantages Of POSH</h3>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mt-5">
+                                <img class="adv-img" src="./img/Group tt135.png">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <h3 style="font-size:24px;font-weight: bold;color: var(--light);">Drafting
+                                </h3>
+                                <img class="mt-3 mb-3 just-img" src="./img/Group tt123.png">
+                                <img class="mt-3 mb-3 just-img" src="./img/Group tt124.png">
+                                <img class="mt-3 mb-3 just-img" src="./img/Group tt127.png">
+                                <img class="mt-3 mb-3 just-img" src="./img/Group tt128.png">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <h3 style="font-size:24px;font-weight: bold;color: var(--light);">Training of Employees
+                                </h3>
+                                <img class="mt-3 mb-3 just-img" src="./img/Group qq123.png">
+                                <img class="mt-3 mb-3 just-img" src="./img/Group qq124.png">
+                                <img class="mt-3 mb-3 just-img" src="./img/Group qq125.png">
+                                <img class="mt-3 mb-3 just-img" src="./img/Group qq126.png">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="d-flex justify-content-center align-content-center"
+                                    style="margin-top: 50px;">
+                                    <img class="adv-img" src="./img/Group qq131.png">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mt-5">
+                                <img class="adv-img" src="./img/Group ww130.png">
+                            </div>
+                            <div class="col-md-6 col-sm-12 mt-5">
+                                <h3 style="font-size:24px;font-weight: bold;color: var(--light);">Training of ICC
+                                </h3>
+                                <img class="mt-3 mb-3 just-img" src="./img/Group ww123.png">
+                                <img class="mt-3 mb-3 just-img" src="./img/Group ww124.png">
+                                <img class="mt-3 mb-3 just-img" src="./img/Group ww125.png">
+                                <img class="mt-3 mb-3 just-img" src="./img/Group ww126.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layouts" style="top: 700px;"></div>
+                </div>
+                <!-- Advantage End -->
+
+                <!-- FAQs Start -->
+                <div class="container-xxl py-5">
+                    <div class="container">
+                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                            <h3 class="fs-4 mb-3">Frequently Asked Questions</h3>
+                            <p class="fs-6 mb-5" style="color: #CCC;">Have questions? we’re here to help</p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Is it mandatory to have Posh Policy for the organisation?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Any organisation having 10 or more than 10 employees have to mandatorily
+                                                have a Posh Policy in place.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Can the POSH Policy be amended?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                If you have any specific inputs, we can amend the Policy in line of your
+                                                requirements and concerns.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                What is included in POSH Policy?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                A POSH Policy will delineate what is included and considered as an
+                                                activity of sexual harassment, process of grievance redressal,
+                                                constitution of the Internal Committee members, roles and
+                                                responsibilities of the employees and the committee members, etc.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="true" aria-controls="collapseFour">
+                                                What is the benefit for POSH Training for the employees
+                                                of the organisation?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                POSH Training shall make all the employees aware regarding the
+                                                prevention and protection of women against sexual harassment. Treating
+                                                men and women creates a positive environment that promotes work ethics.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                                        <h2 class="accordion-header" id="headingFive">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                aria-expanded="false" aria-controls="collapseFive">
+                                                How will the training be provided?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse"
+                                            aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                The training will be provided by our legal experts having expert
+                                                knowledge in the field of training and skill development?
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="text-primary mt-5"
+                                style="text-align: center;font-weight: bold;text-decoration: underline;">See more
+                                FAQS</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQs Start -->
+
+                <!-- Start Testimonials -->
+                <div class="container-fluid bg-icon pt-3 pb-3 mb-5" style="background-color: var(--primary);">
+                    <div class="container">
+                        <div class="section-header text-center mx-auto mb-2 wow fadeInUp" data-wow-delay="0.1s"
+                            style="max-width: 500px;">
+                            <h3 class="mb-3" style="color: var(--light);">Testimonials</h3>
+                            <p class="fs-4" style="color: var(--light);">What Our Clients Have To Say About Us</p>
+                        </div>
+                        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="testimonial-item position-relative text-center bg-light p-5 mt-4"
+                                style="height: 60vh;border-radius: 14px;">
+                                <img src="./img/image 2669.png" class="mb-2" alt=""
+                                    style="width: 100%;mix-blend-mode: multiply;">
+                                <p class="mb-4">Excellent online consultation and that too anytime, what an amazing
+                                    technology!....
+                                </p>
+                                <h3 class="fs-4" style="color: var(--primary);">Manoj Rana</h3>
+                                <p class="fs-6">Propietor At RMS</p>
+                            </div>
+                            <div class="testimonial-item position-relative text-center bg-light p-5 mt-4"
+                                style="height: 60vh;border-radius: 14px;">
+                                <img src="./img/image 2670.png" class="mb-5" alt="" style="width: 100%;">
+                                <p class="mb-4">Lawyer’s support was prompt and of good quality. </p>
+                                <h3 class="fs-4" style="color: var(--primary);">Subhadra Dravida</h3>
+                                <p class="fs-6">Founder & CEO at Trancell oncologics</p>
+                            </div>
+                            <div class="testimonial-item position-relative text-center bg-light p-5 mt-4"
+                                style="height: 60vh;border-radius: 14px;">
+                                <img src="./img/image 2671.png" class="mb-2" alt=""
+                                    style="width: 100%;mix-blend-mode: multiply;">
+                                <p class="mb-4">Assigned legal expert provided me with all the possible solutions for my
+                                    query
+                                    I....
+                                </p>
+                                <h3 class="fs-4" style="color: var(--primary);">Dinesh Malhotra</h3>
+                                <p class="fs-6">Founder at model off duty (USA)
+                                </p>
+                            </div>
+                            <div class="testimonial-item position-relative text-center bg-light p-5 mt-4"
+                                style="height: 60vh;border-radius: 14px;">
+                                <img src="./img/image 2672.png" alt="" style="width: 100%;">
+                                <p class="mb-4">I am very happy with the service that contractbazar provided to me, I
+                                    had...</p>
+                                <h3 class="fs-4" style="color: var(--primary);">Tilak Raj Gaur</h3>
+                                <p style="font-size: 12px;">Founder at mix squad sales & marketing private limited
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Testimonials -->
+
+                <!-- Start Contact Form -->
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="form">
+                            <div class="left-col">
+                                <h2 style="font-weight: bold;" class="mt-4">Still have more questions?</h2>
+                                <p style="color: var(--light);text-align: justify;line-height: 2;" class="mt-4 p-4">
+                                    Orwant to know more about this service. fill the details below and we will get back
+                                    to you in the shortest time possible</p>
+                            </div>
+                            <div class="right-col">
+                                <form class="my-form">
+                                    <div class="result"></div>
+                                    <div class="form-group mt-4">
+                                        <input id="name" type="text" placeholder="Name">
+                                    </div>
+                                    <div class="form-group mt-4">
+                                        <input id="phone" type="number" placeholder="Phone Number">
+                                    </div>
+                                    <div class="form-group mt-4">
+                                        <input id="email" type="email" placeholder="Email ID">
+                                    </div>
+                                    <a class="btn my-custom-btn mt-4"
+                                        style="margin: 0 auto;background-color: var(--primary);box-shadow: none;width: 200px;height: 45px;"
+                                        href="#">Know More</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Contact Form -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-5">Logo</h5>
+                    <p class="mt-2">© 2022 Contract Bazar.All rights
+                        reserved.</p>
+                    <div class="d-flex">
+                        <a class="btn me-1" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn me-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn me-1" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Our Services</h5>
+                    <a class="btn btn-link" href="#">Legal Consultation </a>
+                    <div class="menu">
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link btn btn-link" style="margin-right: 30px;">Contract Drafting
+                                </a>
+                                <ul>
+                                    <li class="link">
+                                        <a href="#">-Do it yourself (DIY)</a>
+                                    </li>
+                                    <li class="link">
+                                        <a href="#">-Draft by an expert</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-link" href="#">Contract Review</a>
+                    <a class="btn btn-link" href="#">Intellectual Property Right</a>
+                    <a class="btn btn-link" href="#">HR Legal</a>
+                    <a class="btn btn-link" href="#">Legal Audit</a>
+                    <a class="btn btn-link" href="#">E-signature</a>
+                    <a class="btn btn-link" href="#">POSH</a>
+                    <a class="btn btn-link" href="#">Legal Notice</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Company</h5>
+                    <a class="btn btn-link" href="#">About Us</a>
+                    <a class="btn btn-link" href="#">Blog</a>
+                    <a class="btn btn-link" href="#">Cancellation and refund policy</a>
+                    <a class="btn btn-link" href="#">Privacy policy</a>
+                    <a class="btn btn-link" href="#">Terms of use</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Get In Touch</h5>
+                    <p>Lex Mores Tech Pvt. Ltd</p>
+                    <p>Dynamic House, Block 1, Sector 41, Noida, UP, 201301</p>
+                    <p>Support@contractbazar.com</p>
+                    <p>+91-9986640578</p>
+                    <p>+91-8035241251</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <hr style="background-color: var(--dark);width: 600px;margin-right: 20px;">
+                    <p style="font-size: 14px;margin: 0 10px 0 10px;width: 150px;">Trusted & Secure</p>
+                    <hr style="background-color: var(--dark);width: 600px;margin-left: 20px;">
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center text-md-start mb-3 mb-md-0 d-flex justify-content-center">
+                        <div class="me-2"><img src="./img/Group 120.png"></div>
+                        <div class="ms-2"><img src="./img/Group 121.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square rounded-circle back-to-top" style="background-color: var(--primary);"><i
+            class="bi bi-arrow-up" style="color: #FFF;"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
